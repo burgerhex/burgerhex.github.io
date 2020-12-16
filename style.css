@@ -1,0 +1,14 @@
+.main h1 {
+    display: inline;
+    font-family: "arial";
+    font-size: 25;
+    text-align: center;
+    text-shadow: 2px 2px 2px #eee;
+}
+
+.main p {
+    margin: 0 auto;
+    font-family: "arial";
+    font-size: 13;
+    text-align: center;
+}
