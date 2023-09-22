@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const TargetSquareSize = 80;
 const GuessSquareSize = 40;
@@ -6,6 +6,10 @@ const ColorLength = 6;
 const GuessLength = ColorLength;
 
 export function Hexdle() {
+    useEffect(() => {
+        document.title = "Hexdle";
+    }, []);
+
     function randomColor() {
         const characters = "0123456789ABCDEF";
         let color = "";
