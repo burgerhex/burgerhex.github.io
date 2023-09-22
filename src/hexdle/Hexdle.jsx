@@ -69,7 +69,7 @@ export function Hexdle() {
                 }}>
             </div>
             <div>
-                <button onClick={() => setShowAnswer(true)}>Show answer</button>
+                <button onClick={() => setShowAnswer(!showAnswer)}>{showAnswer ? "Hide" : "Show"} answer</button>
                 <p hidden={!showAnswer}>#{color}</p>
             </div>
             <div>
